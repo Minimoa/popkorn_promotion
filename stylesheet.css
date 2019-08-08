@@ -60,7 +60,7 @@ header a{
     margin-top:50px;
 }
 h2{
-    font-size: 1em; 
+    font-size: 2em; 
     display: block;
     padding-top:50px;
 }
@@ -73,7 +73,7 @@ h2{
     clear: both;  
     min-height:600px;  
     padding-top:10%;  
-    background: rgba(255, 233, 218, 0.096);
+    background: rgba(255, 233, 218, 0.096); 
   } 
 .content div{ 
     width:70%;   
@@ -83,18 +83,18 @@ b{
     font-weight: 500;
 }
 .content div h1{
-    font-size: 1em; 
+    font-size: 2em; 
     font-weight: 500; 
 }
 .content div p{
-    font-size: 0.9em;  
+    font-size: 1.6em;  
     font-weight: 300;
     margin-bottom: 35px;
 }
 .content i{ 
     font-style: normal;
     columns: #888888;
-    font-size: 0.7em; 
+    font-size: 1.2em; 
     font-weight: 300;
 }
 .content  img{ 
