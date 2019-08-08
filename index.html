@@ -4,29 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="stylesheet.css" rel="stylesheet" type="text/css"> 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-            crossorigin="anonymous"></script>
-
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">  
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <title>popkorn promotion</title>
 </head>
 <script>
     $(document).ready(function(){
+        //alert("들어와준 당신.. 고마워 ..");
+        function fnMove(seq){
+        var offset = $("#" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top}, 300); 
+        }
         $("a").click(function(){
-            var no = $(this).attr("href"); 
-            
-        });
+            var seq = $(this).attr("no");
+            fnMove(seq);
+        })
+  
     })
 </script>
 <body>
-   <header>
-       <div>
-            <h1>COMMUNICATE WITH GLOBAL<br/> K-POP FANS <br/>ALL OVER THE WORLD</h1>
-            <p>POPKORN is a community made by k for global k-pop fans all over the world.
+   <header id="header">
+        <div class="bg"></div>
+        <div>
+            <img src="img/logo.png" alt=""> 
+            <h1>전세계 케이팝 팬들과 소통해보세요.</h1>
+            <p>popKorn is a community made by K for K-POP fans all over the world.
                 You can get,share all about your K-idol without misunderstating here in POPKORN! 
             </p>
-            <a href="#1">our service ▼ </a>
+            <a no = "1">popKorn 서비스 확인하기 ▼ </a>
         </div>
    </header>  
    <section class="content" id="1">
@@ -36,7 +42,7 @@
         </div>
         <img src="img/news.png" alt=""> 
         <i>매일 업데이트 되는 케이팝 뉴스</i>
-        <a href="#5" class="btn">▷</a>
+        <a  no ="5" class="btn">▷</a>
    </section> 
    <section class="content" id="5">
        <div>
@@ -45,8 +51,8 @@
         </div>
         <img src="img/chart.gif" alt=""> 
         <i>주요 KPOP 차트를 다 모아 모아</i>
-        <a href="#2" class="btn">▷</a>
-        <a href="#1" class="btn left">◁</a>
+        <a  no ="2" class="btn">▷</a>
+        <a  no ="1" class="btn left">◁</a>
    </section> 
    <section class="content" id="2">
         <div>
@@ -54,9 +60,9 @@
              <p><b>우리 애</b> 예쁜 것 좀 보세요 </p>
          </div>
          <img src="img/media.png" alt=""> 
-         <i>내 가수 레전드 유튜브 영상 공유</i>
-         <a href="#3" class="btn">▷</a>
-         <a href="#5" class="btn left">◁</a>
+         <i>내 가수 레전드 유튜브 영상 공유하자</i>
+         <a  no ="3" class="btn">▷</a>
+         <a  no ="5" class="btn left">◁</a>
     </section> 
     <section class="content" id="3">
         <div>
@@ -64,8 +70,9 @@
             <p>내 새끼의 <b>일정</b>은? </p> 
         </div>
         <img src="img/calendar.png" alt="">  
-        <a href="#4" class="btn">▷</a>
-        <a href="#3" class="btn left">◁</a>
+        <i>하나라도 놓치고 싶지 않아요</i>
+        <a  no ="4" class="btn">▷</a>
+        <a  no ="3" class="btn left">◁</a>
     </section> 
 
     <section class="content" id="4">
@@ -73,10 +80,20 @@
             <h1>커뮤니티 </h1>
             <p><b>전세계 KPOP 덕후</b>들 모여라 </p>
         </div>
-        <img src="img/news.png" alt=""> 
-        <i>덕후들과 자유롭게 소통</i>
-        <a href="#1" class="btn">△</a>
-        <a href="#3" class="btn left">◁</a>
+        <img src="img/community2.png" alt="">  
+        <img src="img/community1.png" alt="">  
+        <i>전세계 덕후들과 자유롭게 소통해요</i>
+        <a  no ="6" class="btn">▷</a>
+        <a  no ="3" class="btn left">◁</a>
     </section>  
+    <section class="content" id="6">
+         <div>
+              <h1>이 서비스가 괜찮다고 생각된다면?</h1>
+              <p><b>popKorn</b> 에게 투표해주세요! </p>
+          </div>
+          <img src="img/logo.png" alt="">  
+          <a  no ="header" class="btn">△</a>
+          <a  no ="5" class="btn left">◁</a>
+     </section> 
 </body>
 </html>
