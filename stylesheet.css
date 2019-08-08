@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap'); 
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Serif+KR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300,500&display=swap&subset=korean');
 
 *{
-    font-family: 'Darker Grotesque','Nanum Gothic', sans-serif;
+    font-family: 'Gothic A1','Darker Grotesque', sans-serif;
 }
 
 body{
@@ -20,8 +20,7 @@ header{
     display: block;
     min-height:600px; 
     padding-top: 25%;
-}
-
+} 
 header div{
     color:#fff; 
     padding:10px 70px; 
@@ -34,7 +33,7 @@ header div p{
     display:block;
     width:100%; 
     text-align: left;
-    font-size: 1em;  
+    font-size: 1em;   
 } 
 header a{
     color: #fff;
@@ -50,28 +49,37 @@ h2{
     display: block;
     padding-top:50px;
 }
-.content{
+ 
+.content{ 
     display: block;
     padding:30px 20px;
     text-align: center;
     clear: both; 
     min-height:600px; 
-    padding-top:10%;
-} 
+    padding-top:10%;  
+    background: rgb(255, 255, 251);
+  } 
 .content div{ 
     width:70%;   
     margin:auto;
 }
+b{
+    font-weight: 500;
+}
 .content div h1{
     font-size: 1em; 
+    font-weight: 500; 
 }
 .content div p{
     font-size: 0.9em;  
+    font-weight: 300;
+    margin-bottom: 35px;
 }
 .content i{ 
     font-style: normal;
     columns: #888888;
     font-size: 0.7em; 
+    font-weight: 300;
 }
 .content img{ 
     display: block;
@@ -82,7 +90,17 @@ h2{
     float:right;
     font-size: 1em; 
     text-decoration: none;
-    color: #00000098;  
+    color: #eeeeee;  
     border-radius: 100%; 
     margin-top:-200px;
+    text-shadow: 1px 1px 2px #00000044;
+}
+.left{
+    float:left;
+}
+.content:nth-child(3){
+    padding-top:15%;
+}
+.content:nth-child(3) .btn{
+    margin-top:-100px;
 }
