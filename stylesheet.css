@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap'); 
+*{
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+body{
+    padding:0px;
+    margin:0px;
+}
+header{
+    background:url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjis9mLhfPjAhUFGaYKHWSTALYQjRx6BAgBEAQ&url=https%3A%2F%2Fpann.nate.com%2Ftalk%2F346314529&psig=AOvVaw13nt7p8abUy4RJFGNsyzWY&ust=1565345614885617');
+    background-size: auto;
+    width:100%;
+    display: block;
+    height:500px;
+}
+
+header div{
+    color:#fff;
+}
+
