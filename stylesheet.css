@@ -58,6 +58,7 @@ h2{
     min-height:600px; 
     padding-top:10%;  
     background: rgb(255, 255, 251);
+    border-bottom: 1px solid #bcbcbc;
   } 
 .content div{ 
     width:70%;   
