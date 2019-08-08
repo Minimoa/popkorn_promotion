@@ -6,16 +6,36 @@
 body{
     padding:0px;
     margin:0px;
+    overflow: auto;
+    text-align: center;
 }
 header{
-    background:url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjis9mLhfPjAhUFGaYKHWSTALYQjRx6BAgBEAQ&url=https%3A%2F%2Fpann.nate.com%2Ftalk%2F346314529&psig=AOvVaw13nt7p8abUy4RJFGNsyzWY&ust=1565345614885617');
-    background-size: auto;
+    background-color: orange;
+    background-image: url("https://cdn.pixabay.com/photo/2019/05/29/16/00/retro-4237850_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width:100%;
     display: block;
-    height:500px;
+    height:500px; 
 }
 
 header div{
-    color:#fff;
+    color:#fff; 
+    padding:70px;
 }
+header div h3{
+    font-size: 3em; 
+}
+header div p{
+    display:block;
+    width:50%; 
+    text-align: left;
+    font-size: 1em; 
+} 
 
+section{
+    display: block;
+    padding:50px;
+    text-align: left;
+
+}
