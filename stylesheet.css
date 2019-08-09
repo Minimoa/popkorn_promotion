@@ -8,6 +8,8 @@
 body{
     padding:0px;
     margin:0px;
+    width:100%;
+    background-color: orange;
     overflow-y:auto;
     overflow-x:hidden;
     text-align: center;
