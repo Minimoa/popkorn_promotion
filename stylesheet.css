@@ -19,6 +19,7 @@ body{
     top:0;
     min-height:600px; 
     padding-top: 23%;
+    overflow-x: hidden;
     z-index: 1;
     background: #ffffff9a;
 }
@@ -27,6 +28,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
+    overflow-x: hidden;
     display: block;
     min-height:600px; 
     padding-top: 25%;
