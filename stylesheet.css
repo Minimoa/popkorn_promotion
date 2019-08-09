@@ -130,6 +130,7 @@ b{
 } 
 .content:nth-child(7) div {
     margin-top:40%;
+    width:100%;
     color:rgba(98,49,17,1);
 }
 .content:nth-child(7) img{
