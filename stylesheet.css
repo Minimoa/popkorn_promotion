@@ -76,30 +76,30 @@ h2{
     background: rgba(255, 233, 218, 0.096); 
   } 
 .content div{ 
-    width:70%;   
+    width:80%;   
     margin:auto;
 }
 b{
     font-weight: 500;
 }
 .content div h1{
-    font-size: 1.3em; 
+    font-size: 1.6em; 
     font-weight: 500; 
 }
 .content div p{
-    font-size: 0.9em;  
+    font-size: 1em;  
     font-weight: 300;
     margin-bottom: 35px;
 }
 .content i{ 
     font-style: normal;
     columns: #888888;
-    font-size: 0.8em; 
+    font-size: 0.9em; 
     font-weight: 300;
 }
 .content  img{ 
     display: block;
-    width:80%;  
+    width:90%;  
     margin:auto; 
 }
 .btn{
