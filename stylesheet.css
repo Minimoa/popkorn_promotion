@@ -103,7 +103,7 @@ b{
 }
 .content  img{ 
     display: block;
-    width:90%;  
+    width:80%;  
     margin:auto; 
 }
 .btn{
@@ -113,7 +113,7 @@ b{
     color: #ffffff;  
     border-radius: 100%; 
     margin-top:-200px;
-    margin-right:2px;
+    margin-right:-5px;
     text-shadow: 1px 1px 2px #00000057;
 }
 .left{
